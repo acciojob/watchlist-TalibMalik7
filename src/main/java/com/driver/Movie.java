@@ -4,12 +4,12 @@ package com.driver;
 // all-args constructor and getters-setters
 public class Movie {
     private String name;
-    private int duratonInMinutes;
+    private int durationInMinutes;
     private double imdbRating;
     public Movie(){}
     public Movie(String name , int dur, double rating){
         this.name = name;
-        this.duratonInMinutes = dur;
+        this.durationInMinutes = dur;
         imdbRating = rating;
     }
 
@@ -21,12 +21,12 @@ public class Movie {
         this.name = name;
     }
 
-    public int getDuratonInMinutes() {
-        return duratonInMinutes;
+    public int getDurationInMinutes() {
+        return durationInMinutes;
     }
 
-    public void setDuratonInMinutes(int duratonInMinutes) {
-        this.duratonInMinutes = duratonInMinutes;
+    public void setDurationInMinutes(int durationInMinutes) {
+        this.durationInMinutes = durationInMinutes;
     }
 
     public double getImdbRating() {
